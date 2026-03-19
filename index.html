@@ -185,7 +185,10 @@
             <AscendLogo iconSize={44} ascendSize={20} marketingSize={12} />
             <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
               <a
-                href="#contact"
+                href="https://calendly.com/ascendmarketingsupport/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => { e.preventDefault(); window.open('https://calendly.com/ascendmarketingsupport/30min', '_blank'); }}
                 className="glow-btn"
                 style={{
                   background: '#C8FF00', color: '#000', fontWeight: 800,
@@ -283,20 +286,25 @@
 
           {/* ── BUTTONS ── */}
           <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="#contact" style={{
-              background: '#C8FF00',
-              color: '#000',
-              fontWeight: 800,
-              padding: '16px 32px',
-              borderRadius: 10,
-              textDecoration: 'none',
-              fontSize: 16,
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 8,
-              boxShadow: '0 0 20px #C8FF0055',
-              fontFamily: 'Inter, sans-serif',
-            }}>
+            <a
+              href="https://calendly.com/ascendmarketingsupport/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => { e.preventDefault(); window.open('https://calendly.com/ascendmarketingsupport/30min', '_blank'); }}
+              style={{
+                background: '#C8FF00',
+                color: '#000',
+                fontWeight: 800,
+                padding: '16px 32px',
+                borderRadius: 10,
+                textDecoration: 'none',
+                fontSize: 16,
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 8,
+                boxShadow: '0 0 20px #C8FF0055',
+                fontFamily: 'Inter, sans-serif',
+              }}>
               Book Your Free Strategy Call
               <Icons.ArrowRight size={18} />
             </a>
@@ -546,11 +554,17 @@
           }}>
             Book a free 30-minute strategy call. No pressure. No fluff. Just a real plan to get your business on video and in front of customers.
           </p>
-          <a href="mailto:hello@ascendmarketing.com" className="glow-btn" style={{
-            background: '#C8FF00', color: '#000', fontWeight: 800,
-            padding: '20px 48px', borderRadius: 12, textDecoration: 'none',
-            fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center', gap: 10,
-          }}>
+          <a
+            href="https://calendly.com/ascendmarketingsupport/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => { e.preventDefault(); window.open('https://calendly.com/ascendmarketingsupport/30min', '_blank'); }}
+            className="glow-btn"
+            style={{
+              background: '#C8FF00', color: '#000', fontWeight: 800,
+              padding: '20px 48px', borderRadius: 12, textDecoration: 'none',
+              fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center', gap: 10,
+            }}>
             Book My Free Call
             <Icons.Phone size={20} />
           </a>
@@ -595,7 +609,10 @@
     /* ── MOBILE STICKY CTA ── */
     const MobileStickyBtn = () => (
       <a
-        href="#contact"
+        href="https://calendly.com/ascendmarketingsupport/30min"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => { e.preventDefault(); window.open('https://calendly.com/ascendmarketingsupport/30min', '_blank'); }}
         className="mobile-sticky-cta"
         style={{
           position: 'fixed', bottom: 0, left: 0, right: 0,
